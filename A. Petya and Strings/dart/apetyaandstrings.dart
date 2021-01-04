@@ -1,12 +1,12 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  int c, g;
-  c = stdin.readLineSync().length.toInt();
-  g = stdin.readLineSync().length.toInt();
-  if (c > g) {
+  int n, N;
+  n = stdin.readLineSync().length.toInt();
+  N = stdin.readLineSync().length.toInt();
+  if (n > N) {
     print("0");
-  } else if (g > c) {
+  } else if (N > n) {
     print("-1");
   } else {
     print("1");
